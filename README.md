@@ -50,5 +50,3 @@ This project performs comprehensive analysis of the Indian economy using a rich 
 - **Records**: 600+ rows
 
 ---
-
-## 🏗️ Project Architecture
