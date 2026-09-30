@@ -1,11 +1,5 @@
 # EcoPulse-India-Economic-Intelligence-AI-Insights
 
-
-An end-to-end Data Science and Analytics project analyzing the Indian economy using Python, SQL, and Machine Learning.
-
----
-# EcoPulse: India Economic Intelligence & AI Insights
-
 End-to-end Data Science and AI project analyzing the Indian economy from 2015 to 2025.
 
 ## Overview
