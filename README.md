@@ -4,49 +4,38 @@
 An end-to-end Data Science and Analytics project analyzing the Indian economy using Python, SQL, and Machine Learning.
 
 ---
+# EcoPulse: India Economic Intelligence & AI Insights
 
-## 📋 Project Overview
+End-to-end Data Science and AI project analyzing the Indian economy from 2015 to 2025.
 
-This project performs comprehensive analysis of the Indian economy using a rich dataset containing economic indicators across different sectors, years, and quarters. The project demonstrates skills in:
+## Overview
 
-- **Data Analysis**: Pandas, NumPy, EDA
-- **Statistics**: Descriptive stats, Hypothesis testing
-- **Data Engineering**: ETL Pipeline, Data validation
-- **Machine Learning**: Regression, Classification, Clustering, Forecasting
-- **Visualization**: Matplotlib, Seaborn, Plotly, Power BI
-- **SQL**: Database design, Analytical queries
-- **Dashboard**: Streamlit, Power BI
+EcoPulse processes 1000+ economic records across 15+ sectors using a complete modern data stack - from ETL pipelines and SQL databases to machine learning, deep learning, NLP, and interactive dashboards.
 
----
+## Features
 
-## 📊 Dataset Information
+- Complete ETL pipeline with data validation
+- GDP prediction using regression models
+- Growth classification using ensemble methods
+- K-Means clustering for economic patterns
+- LSTM time-series forecasting
+- TensorFlow neural networks
+- NLP-based automated insights
+- Interactive Streamlit dashboard
+- Power BI enterprise dashboard
 
-### Source File
-`Indian_Economy_Full_Enhanced_Dataset.xlsx`
+## Tech Stack
 
-### Key Columns
+| Layer | Technologies |
+|-------|--------------|
+| Analytics | Pandas, NumPy, SciPy, Matplotlib, Seaborn, Plotly |
+| Engineering | SQL, MySQL, ETL Pipeline |
+| ML | Scikit-learn, XGBoost, LightGBM |
+| DL | PyTorch, TensorFlow |
+| NLP | NLTK, spaCy, TextBlob, Transformers |
+| Dashboard | Streamlit, Power BI |
 
-| Column | Description |
-|--------|-------------|
-| Year | Calendar year |
-| Quarter | Q1, Q2, Q3, Q4 |
-| Sector | Economic sector |
-| GDP_Lakh_Crore | GDP in Lakh Crore |
-| Growth_% | Growth rate percentage |
-| Employment_Million | Employment in Millions |
-| Exports_Crore | Exports in Crore |
-| Imports_Crore | Imports in Crore |
-| FDI_Crore | FDI in Crore |
-| Inflation_% | Inflation rate |
-| CPI | Consumer Price Index |
-| IIP | Index of Industrial Production |
-| Tax_Revenue_Crore | Tax Revenue in Crore |
-| Sector_Category | Primary/Secondary/Tertiary |
-| Stakeholder_Category | Government/Corporate/Farmer etc |
+## Installation
 
-### Features
-- **Sectors**: 15+ sectors (Agriculture, Manufacturing, IT, Healthcare, etc.)
-- **Years**: 2015-2025
-- **Records**: 600+ rows
-
----
+```bash
+pip install -r requirements.txt
