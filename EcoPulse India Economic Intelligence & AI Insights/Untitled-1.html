@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ecopulse</title>
+
+<style>
+  :root{
+    --bg:#F1D3BE;
+    --orange:#E8590C;
+    --navy:#1E2A78;
+  }
+
+  *{
+    box-sizing:border-box;
+  }
+
+  html,body{
+    height:100%;
+    margin:0;
+  }
+
+  body{
+    background:var(--bg);
+    font-family:'Times New Roman', Times, serif;
+    font-style:normal;
+  }
+
+  .app{
+    display:grid;
+    grid-template-columns:320px minmax(0,1fr);
+    min-height:100vh;
+  }
+
+  aside{
+    background:linear-gradient(180deg,#F97316,#EA580C 60%,#C2410C);
+    color:#fff;
+    padding:18px 16px;
+    position:sticky;
+    top:0;
+    align-self:start;
+    height:100vh;
+    overflow:auto;
+  }
+
+  .side-brand{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    background:var(--navy);
+    color:#FB923C;
+    font-family:'Times New Roman', Times, serif;
+    font-weight:700;
+    font-size:34px;
+    font-style:normal;
+    line-height:1.1;
+    padding:12px 14px;
+    border-radius:8px;
+    margin-bottom:8px;
+    white-space:nowrap;
+  }
+
+  .side-brand .flag{
+    font-size:28px;
+    font-style:normal;
+    line-height:1;
+  }
+
+  .side-sub{
+    font-family:'Times New Roman', Times, serif;
+    font-size:16px;
+    color:#000;
+    font-style:normal;
+    font-weight:700;
+    letter-spacing:.3px;
+    padding:0 4px 14px 4px;
+    text-shadow:0 1px 2px rgba(0,0,0,.35);
+    border-bottom:1px solid rgba(0,0,0,.35);
+    margin-bottom:14px;
+    white-space:nowrap;
+  }
+
+  main{
+    background:var(--bg);
+    min-width:0;
+    font-family:'Times New Roman', Times, serif;
+    font-style:normal;
+  }
+
+  @media(max-width:860px){
+    .app{
+      grid-template-columns:minmax(0,1fr);
+    }
+
+    aside{
+      position:static;
+      height:auto;
+      max-height:none;
+    }
+  }
+</style>
+</head>
+
+<body>
+
+  <div class="app">
+
+    <aside>
+
+      <div class="side-brand">
+        <span class="flag">🇮🇳</span>Ecopulse
+      </div>
+
+      <div class="side-sub">
+        Indian Economy Analysis 2015 - 2026
+      </div>
+
+    </aside>
+
+    <main></main>
+
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,66 @@
+2026-10-01 00:50:46,081 - ERROR - Input file not found: data/raw/Ecopulse Economy Dataset.csv
+2026-10-01 00:50:54,754 - ERROR - Input file not found: data/raw/Ecopulse Economy Dataset.csv
+2026-10-01 00:55:13,154 - ERROR - Input file not found: data/raw/Ecopulse Economy Dataset.csv
+2026-10-01 01:10:50,489 - ERROR - Input file not found: data/raw/Indian_Economy_Sectorwise_Dataset.csv
+2026-10-01 01:13:16,585 - INFO - Pipeline started: data/raw/Ecopulse Economy Dataset.csv
+2026-10-01 01:13:16,588 - INFO - ==================================================
+2026-10-01 01:13:16,588 - INFO - EXTRACT PHASE
+2026-10-01 01:13:16,588 - INFO - ==================================================
+2026-10-01 01:13:16,589 - INFO - Loading data from: data/raw/Ecopulse Economy Dataset.csv
+2026-10-01 01:13:16,632 - INFO - Loaded 660 records
+2026-10-01 01:13:16,632 - INFO - Extracted 660 records
+2026-10-01 01:13:16,632 - INFO - ==================================================
+2026-10-01 01:13:16,632 - INFO - TRANSFORM PHASE
+2026-10-01 01:13:16,634 - INFO - ==================================================
+2026-10-01 01:13:16,634 - INFO - Starting data cleaning
+2026-10-01 01:13:16,653 - INFO - Removed 0 duplicates
+2026-10-01 01:13:16,696 - INFO - Final cleaned data: 660 records
+2026-10-01 01:13:16,706 - INFO - Creating engineered features
+2026-10-01 01:13:16,757 - INFO - Total features: 41
+2026-10-01 01:13:16,758 - INFO - ==================================================
+2026-10-01 01:13:16,758 - INFO - VALIDATION PHASE
+2026-10-01 01:13:16,758 - INFO - ==================================================
+2026-10-01 01:13:16,763 - WARNING - Missing values detected: {'Growth_Momentum': 15}
+2026-10-01 01:13:16,776 - INFO - Validation completed successfully
+2026-10-01 01:13:16,777 - INFO - ==================================================
+2026-10-01 01:13:16,777 - INFO - LOAD PHASE
+2026-10-01 01:13:16,777 - INFO - ==================================================
+2026-10-01 01:13:16,808 - INFO - Data saved: data/processed\ecopulse_processed.csv
+2026-10-01 01:13:16,809 - INFO - ==================================================
+2026-10-01 01:13:16,809 - INFO - PIPELINE COMPLETED
+2026-10-01 01:13:16,810 - INFO - Records processed: 660
+2026-10-01 01:13:16,810 - INFO - Duration: 0.22s
+2026-10-01 01:13:16,810 - INFO - Output: data/processed\ecopulse_processed.csv
+2026-10-01 01:13:16,811 - INFO - ==================================================
+2026-10-01 01:13:57,581 - INFO - Linear Regression - R2: -0.0128
+2026-10-01 01:13:58,882 - INFO - Random Forest - R2: 0.0121
+2026-10-01 01:13:59,458 - INFO - Gradient Boosting - R2: -0.0471
+2026-10-01 01:13:59,537 - INFO - Best model saved: Random Forest
+2026-10-01 01:14:02,663 - INFO - Logistic Regression - Accuracy: 0.3409
+2026-10-01 01:14:03,316 - INFO - Random Forest - Accuracy: 0.2955
+2026-10-01 01:14:05,775 - INFO - Gradient Boosting - Accuracy: 0.2500
+2026-10-01 01:14:05,799 - INFO - Best classifier saved: Logistic Regression
+2026-10-01 01:14:10,259 - INFO - Optimal clusters: 8
+2026-10-01 01:14:10,474 - INFO - Clustering model saved
+2026-10-01 01:14:12,271 - WARNING - PyTorch not available. Skipping LSTM forecast.
+2026-10-01 01:14:13,738 - WARNING - TensorFlow not available. Skipping NN.
+2026-10-01 01:14:15,269 - INFO - Report saved: reports/economic_insights.txt
+2026-10-01 02:13:28,047 - INFO - Linear Regression - R2: 0.7244
+2026-10-01 02:13:31,623 - INFO - Random Forest - R2: 0.9102
+2026-10-01 02:13:34,364 - INFO - Gradient Boosting - R2: 0.9468
+2026-10-01 02:13:34,390 - INFO - Best model saved: Gradient Boosting
+2026-10-01 02:13:59,046 - INFO - Linear Regression - R2: 0.7244
+2026-10-01 02:14:02,531 - INFO - Random Forest - R2: 0.9102
+2026-10-01 02:14:05,230 - INFO - Gradient Boosting - R2: 0.9468
+2026-10-01 02:14:05,246 - INFO - Best model saved: Gradient Boosting
+2026-10-01 02:14:08,293 - INFO - Logistic Regression - Accuracy: 0.3864
+2026-10-01 02:14:09,611 - INFO - Random Forest - Accuracy: 0.3182
+2026-10-01 02:14:22,295 - INFO - Gradient Boosting - Accuracy: 0.2273
+2026-10-01 02:14:22,304 - INFO - Best classifier saved: Logistic Regression
+2026-10-01 02:14:26,766 - INFO - Optimal clusters: 8
+2026-10-01 02:14:26,915 - INFO - Clustering model saved
+2026-10-01 02:14:30,941 - INFO - XGBoost R2: 0.9435
+2026-10-01 02:14:31,025 - INFO - LightGBM R2: 0.9490
+2026-10-01 02:14:31,035 - INFO - Best boosting model saved: LightGBM
+2026-10-01 02:14:54,732 - WARNING - TensorFlow not available. Skipping NN.
+2026-10-01 02:14:56,299 - INFO - Report saved: reports/economic_insights.txt
